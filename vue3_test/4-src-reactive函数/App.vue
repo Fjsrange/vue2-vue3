@@ -13,7 +13,6 @@ import { reactive } from 'vue';
 
 export default {
   name: 'App',
-  // 此处仅用于测试，不考虑响应式的问题
   setup() {
     // 数据
     let person = reactive({
